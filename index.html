@@ -1,1010 +1,767 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>Christian - Free Bootstrap 4 Template by Colorlib</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+<title>Mimosan</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Demo project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
-
-  <link rel="stylesheet" href="css/aos.css">
-
-  <link rel="stylesheet" href="css/ionicons.min.css">
-
-  <link rel="stylesheet" href="css/flaticon.css">
-  <link rel="stylesheet" href="css/icomoon.css">
-  <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 </head>
+<body>
 
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+<div class="super_container">
+	
+	<!-- Header -->
 
+	<header class="header">
+			
+		<!-- Top Bar -->
+		<div class="top_bar">
+			<div class="top_bar_background" style="background-image:url(images/top_bar.jpg)"></div>
+			<div class="top_bar_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+								<ul class="top_bar_contact_list">
+									<li>
+										<i class="fa fa-envelope" aria-hidden="true"></i>
+										<div>Email: infodeercreative@gmail.com</div>
+									</li>
+									<li>
+										<i class="fa fa-phone" aria-hidden="true"></i>
+										<div>Call Us: +1234 800 8080</div>
+									</li>
+								</ul>
+								<div class="top_bar_social ml-auto">
+									<ul class="social_list">
+										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>				
+		</div>
 
-  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="index.html"><span class="flaticon-bible"></span>Saint James Church <br> &nbsp&nbsp&nbsp Vayalar</a>
-      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="oi oi-menu"></span> Menu
-      </button>
+		<!-- Header Content -->
+		<div class="header_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_content d-flex flex-row align-items-center justify-content-start">
+							<div class="logo_container">
+								<a href="#">
+									<div class="logo"><img src="images/logo.png" alt=""></div>
+									<div class="logo_text">St: James Church Vayalar</div>
+								</a>
+							</div>
+							<nav class="main_nav_contaner ml-auto">
+								<ul class="main_nav">
+									<li class="active"><a href="#">home</a></li>
+									<li><a href="about.html">about</a></li>
+									<li><a href="sermons.html">sermons</a></li>
+									<li><a href="events.html">events</a></li>
+									<li><a href="blog.html">blog</a></li>
+									<li><a href="contact.html">contact</a></li>
+								</ul>
+								<div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
+							</nav>
 
-      <div class="collapse navbar-collapse" id="ftco-nav">
-        <ul class="navbar-nav nav ml-auto">
-          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-          <li class="nav-item"><a href="#sermons-section" class="nav-link"><span>Sermons</span></a></li>
-          <li class="nav-item"><a href="#events-section" class="nav-link"><span>Events</span></a></li>
-          <!--li class="nav-item"><a href="#causes-section" class="nav-link"><span>Causes</span></a></li-->
-          <!-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>Blog</span></a></li> -->
-          <li class="nav-item"><a href="#pastor-section" class="nav-link"><span>Pastor</span></a></li>
-          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <section class="home-slider js-fullheight owl-carousel">
-    <div class="slider-item js-fullheight" style="background-image:url(images/bg_1.jpg);">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
-          <div class="col-md-8 text-center ftco-animate mt-5">
-            <div class="text">
-              <div class="subheading">
-                <span>Latin Catholic - Diocese of Alleppey</span>
-              </div>
-              <h1 class="mb-4">Following <span>Jesus</span> wherever we are</h1>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              <p><a href="#" class="btn btn-primary py-2 px-4">Be part of us</a> <a href="#" class="btn btn-primary btn-outline-primary py-2 px-4">Read more</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+							<!-- Hamburger -->
 
-    <div class="slider-item js-fullheight" style="background-image:url(images/bg_2.jpg);">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
-          <div class="col-md-8 text-center ftco-animate mt-5">
-            <div class="text">
-              <div class="subheading">
-                <span>Latin Catholic - Diocese of Alleppey</span>
-              </div>
-              <h1 class="mb-4">We <span>Love</span> God, We Believe in God</h1>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              <p><a href="#" class="btn btn-primary py-2 px-4">Be part of us</a> <a href="#" class="btn btn-primary btn-outline-primary py-2 px-4">Read more</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+							<div class="hamburger ml-auto">
+								<i class="fa fa-bars" aria-hidden="true"></i>
+							</div>
 
-  <section class="ftco-section ftco-no-pt ftco-no-pb ftco-about-section" id="about-section">
-    <div class="container-fluid px-0">
-      <div class="row d-md-flex text-wrapper">
-        <div class="one-half img" style="background-image: url('images/about.jpg');"></div>
-        <div class="one-half half-text d-flex justify-content-end align-items-center ftco-animate">
-          <div class="text-inner pl-md-5">
-            <h3 class="heading">Welcome to <span>Christian</span> Church</h3>
-            <p>Far far away,<strong>creative</strong> behind the word mountains, far from the countries Vokalia and Consonantia, there live the <strong>success</strong> blind texts. Separated they live in Bookmarksgrove</p>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-            <ul class="my-4">
-              <li><span class="ion-ios-checkmark-circle mr-2"></span> Even the all-powerful Pointing</li>
-              <li><span class="ion-ios-checkmark-circle mr-2"></span> Behind the word mountains</li>
-              <li><span class="ion-ios-checkmark-circle mr-2"></span> Separated they live in Bookmarksgrove</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-  <section class="ftco-counter" id="section-counter">
-    <div class="container-fluid px-0">
-      <div class="row no-gutters">
-        <div class="col-md-3 justify-content-center counter-wrap ftco-animate">
-          <div class="block-18 text-center py-5">
-            <div class="text">
-              <div class="icon d-flex justify-content-center align-items-center">
-                <span class="icon-users"></span>
-              </div>
-              <strong class="number" data-number="24">0</strong>
-              <span>Family Members</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 justify-content-center counter-wrap ftco-animate">
-          <div class="block-18 text-center py-5">
-            <div class="text">
-              <div class="icon d-flex justify-content-center align-items-center">
-                <span class="icon-user"></span>
-              </div>
-              <strong class="number" data-number="309">0</strong>
-              <span>Pastors</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 justify-content-center counter-wrap ftco-animate">
-          <div class="block-18 text-center py-5">
-            <div class="text">
-              <div class="icon d-flex justify-content-center align-items-center">
-                <span class="icon-money"></span>
-              </div>
-              <strong class="number" data-number="9350500">0</strong>
-              <span>Donation</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 justify-content-center counter-wrap ftco-animate">
-          <div class="block-18 text-center py-5">
-            <div class="text">
-              <div class="icon d-flex justify-content-center align-items-center">
-                <span class="icon-home"></span>
-              </div>
-              <strong class="number" data-number="206">0</strong>
-              <span>Churches</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+		<!-- Header Search Panel -->
+		<div class="header_search_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_search_content d-flex flex-row align-items-center justify-content-end">
+							<form action="#" class="header_search_form">
+								<input type="search" class="search_input" placeholder="Search" required="required">
+								<button class="header_search_button d-flex flex-column align-items-center justify-content-center">
+									<i class="fa fa-search" aria-hidden="true"></i>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>			
+	</header>
 
-  <section class="ftco-section ftco-services-2" id="services-section">
-    <div class="container">
-      <div class="row justify-content-center pb-5">
-        <div class="col-md-12 heading-section text-center ftco-animate">
-          <span class="subheading">Services</span>
-          <h2 class="mb-4">Christian Church Services</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md d-flex align-self-stretch ftco-animate">
-          <div class="media block-6 services text-center d-block">
-            <div class="icon"><span class="flaticon-praying"></span></div>
-            <div class="media-body">
-              <h3 class="heading mb-3">Daily Prayers</h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md d-flex align-self-stretch ftco-animate">
-          <div class="media block-6 services text-center d-block">
-            <div class="icon"><span class="flaticon-bible"></span></div>
-            <div class="media-body">
-              <h3 class="heading mb-3">Continous Teaching</h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md d-flex align-self-stretch ftco-animate">
-          <div class="media block-6 services text-center d-block">
-            <div class="icon"><span class="flaticon-church"></span></div>
-            <div class="media-body">
-              <h3 class="heading mb-3">Set of Sermons</h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md d-flex align-self-stretch ftco-animate">
-          <div class="media block-6 services text-center d-block">
-            <div class="icon"><span class="flaticon-rings"></span></div>
-            <div class="media-body">
-              <h3 class="heading mb-3">Wedding</h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md d-flex align-self-stretch ftco-animate">
-          <div class="media block-6 services text-center d-block">
-            <div class="icon"><span class="flaticon-social-care"></span></div>
-            <div class="media-body">
-              <h3 class="heading mb-3">Community Helpers</h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+	<!-- Menu -->
 
-  <section class="ftco-section bg-light" id="sermons-section">
-    <div class="container">
-      <div class="row justify-content-center pb-5">
-        <div class="col-md-12 heading-section text-center ftco-animate">
-          <span class="subheading">Services</span>
-          <h2 class="mb-4">Christian Church Sermons</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="sermon-wrap ftco-animate">
-            <div class="img d-flex align-items-center justify-content-center" style="background-image: url(images/sermon-1.jpg);">
-              <div class="text-content p-4 text-center">
-                <span>by pastor:</span>
-                <h3>Jerry Simon</h3>
-                <p class="">
-                  <a href="https://vimeo.com/45830194" class="btn-custom mb-2 p-2 text-center popup-vimeo"><span class="icon-play"></span> Watch</a>
-                  <a href="#" class="btn-custom p-2 text-center"><span class="icon-download"></span> Download</a>
-                </p>
-              </div>
-            </div>
-            <div class="text pt-3 text-center">
-              <h2 class="mb-0"><a href="sermon.html">Let the Sunset Inspire You</a></h2>
-              <div class="meta">
-                <p class="mb-0">
-                  <span>July 01, 2019</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="sermon-wrap ftco-animate">
-            <div class="img d-flex align-items-center justify-content-center" style="background-image: url(images/sermon-2.jpg);">
-              <div class="text-content p-4 text-center">
-                <span>by pastor:</span>
-                <h3>Jerry Simon</h3>
-                <p class="">
-                  <a href="https://vimeo.com/45830194" class="btn-custom mb-2 p-2 text-center popup-vimeo"><span class="icon-play"></span> Watch</a>
-                  <a href="#" class="btn-custom p-2 text-center"><span class="icon-download"></span> Download</a>
-                </p>
-              </div>
-            </div>
-            <div class="text pt-3 text-center">
-              <h2 class="mb-0"><a href="sermon.html">Developing Spiritual Mentality</a></h2>
-              <div class="meta">
-                <p class="mb-0">
-                  <span>July 01, 2019</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="sermon-wrap ftco-animate">
-            <div class="img d-flex align-items-center justify-content-center" style="background-image: url(images/sermon-3.jpg);">
-              <div class="text-content p-4 text-center">
-                <span>by pastor:</span>
-                <h3>Jerry Simon</h3>
-                <p class="">
-                  <a href="https://vimeo.com/45830194" class="btn-custom mb-2 p-2 text-center popup-vimeo"><span class="icon-play"></span> Watch</a>
-                  <a href="#" class="btn-custom p-2 text-center"><span class="icon-download"></span> Download</a>
-                </p>
-              </div>
-            </div>
-            <div class="text pt-3 text-center">
-              <h2 class="mb-0"><a href="sermon.html">Let the Bible Motivate You</a></h2>
-              <div class="meta">
-                <p class="mb-0">
-                  <span>July 01, 2019</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+	<div class="menu d-flex flex-column align-items-center justify-content-center">
+		<div class="menu_content">
+			<div class="cross_1 d-flex flex-column align-items-center justify-content-center"><img src="images/logo.png" alt=""></div>
+			<form action="#" class="menu_search_form">
+				<input type="search" class="menu_search_input" placeholder="Search" required="required">
+				<button class="menu_search_button d-flex flex-column align-items-center justify-content-center">
+				<i class="fa fa-search" aria-hidden="true"></i>
+			</button>
+			</form>
+			<nav class="menu_nav">
+				<ul>
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="sermons.html">Sermons</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="menu_close"><i class="fa fa-times" aria-hidden="true"></i></div>
+	</div>
 
-        <div class="col-md-4">
-          <div class="sermon-wrap ftco-animate">
-            <div class="img d-flex align-items-center justify-content-center" style="background-image: url(images/sermon-4.jpg);">
-              <div class="text-content p-4 text-center">
-                <span>by pastor:</span>
-                <h3>Jerry Simon</h3>
-                <p class="">
-                  <a href="https://vimeo.com/45830194" class="btn-custom mb-2 p-2 text-center popup-vimeo"><span class="icon-play"></span> Watch</a>
-                  <a href="#" class="btn-custom p-2 text-center"><span class="icon-download"></span> Download</a>
-                </p>
-              </div>
-            </div>
-            <div class="text pt-3 text-center">
-              <h2 class="mb-0"><a href="sermon.html">Let the Sunset Inspire You</a></h2>
-              <div class="meta">
-                <p class="mb-0">
-                  <span>July 01, 2019</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="sermon-wrap ftco-animate">
-            <div class="img d-flex align-items-center justify-content-center" style="background-image: url(images/sermon-5.jpg);">
-              <div class="text-content p-4 text-center">
-                <span>by pastor:</span>
-                <h3>Jerry Simon</h3>
-                <p class="">
-                  <a href="https://vimeo.com/45830194" class="btn-custom mb-2 p-2 text-center popup-vimeo"><span class="icon-play"></span> Watch</a>
-                  <a href="#" class="btn-custom p-2 text-center"><span class="icon-download"></span> Download</a>
-                </p>
-              </div>
-            </div>
-            <div class="text pt-3 text-center">
-              <h2 class="mb-0"><a href="sermon.html">Developing Spiritual Mentality</a></h2>
-              <div class="meta">
-                <p class="mb-0">
-                  <span>July 01, 2019</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="sermon-wrap ftco-animate">
-            <div class="img d-flex align-items-center justify-content-center" style="background-image: url(images/sermon-6.jpg);">
-              <div class="text-content p-4 text-center">
-                <span>by pastor:</span>
-                <h3>Jerry Simon</h3>
-                <p class="">
-                  <a href="https://vimeo.com/45830194" class="btn-custom mb-2 p-2 text-center popup-vimeo"><span class="icon-play"></span> Watch</a>
-                  <a href="#" class="btn-custom p-2 text-center"><span class="icon-download"></span> Download</a>
-                </p>
-              </div>
-            </div>
-            <div class="text pt-3 text-center">
-              <h2 class="mb-0"><a href="sermon.html">Let the Bible Motivate You</a></h2>
-              <div class="meta">
-                <p class="mb-0">
-                  <span>July 01, 2019</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+	<!-- Home -->
 
-  <section class="ftco-intro img" id="events-section" style="background-image: url(images/bg_3.jpg);">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-      </div>
-    </div>
-  </section>
+	<div class="home">
+		<div class="home_background" style="background-image:url(images/index.jpg)"></div>
+		<div class="home_content text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_title">Belief in God  as Father and Holy Spirit is at the heart of our faith.</div>
+						<div class="home_text">God has revealed himself through the Bible. God has revealed himself most clearly through the gift of his Son, Jesus Christ. God makes himself known personally to each believer through the work of the Holy Spirit.</div>
+						<div class="button home_link"><a href="#">join with us</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-  <section class="ftco-section bg-light ftco-event" id="events-section">
-    <div class="container-fluid px-4 ftco-to-top">
-      <div class="row justify-content-center pb-5">
-        <div class="col-md-12 heading-section text-center ftco-animate">
-          <span class="subheading">Events</span>
-          <h2 class="mb-5">Upcoming Events</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 col-lg-6 col-xl-4">
-          <div class="event-wrap d-flex ftco-animate">
-            <div class="img" style="background-image: url(images/event-1.jpg);"></div>
-            <div class="text p-4 d-flex align-items-center">
-              <div>
-                <span class="time">8:30am - 11:30am</span>
-                <h3><a href="#">Sharing Our Faith &amp; Gospel</a></h3>
-                <div class="meta">
-                  <p><span class="icon-user mr-1"></span> by pastor: <a href="#">Jerry Simon</a></p>
-                  <p><span class="icon-location"></span> 203 Fake St. Mountain View, San Francisco, California, USA</p>
-                  <p class="mb-0"><a href="#" class="btn btn-primary">Join Us</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-12 col-lg-6 col-xl-4">
-          <div class="event-wrap d-flex ftco-animate">
-            <div class="img" style="background-image: url(images/event-2.jpg);"></div>
-            <div class="text p-4 d-flex align-items-center">
-              <div>
-                <span class="time">8:30am - 11:30am</span>
-                <h3><a href="#">Sharing Our Faith &amp; Gospel</a></h3>
-                <div class="meta">
-                  <p><span class="icon-user mr-1"></span> by pastor: <a href="#">Jerry Simon</a></p>
-                  <p><span class="icon-location"></span> 203 Fake St. Mountain View, San Francisco, California, USA</p>
-                  <p class="mb-0"><a href="#" class="btn btn-primary">Join Us</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-12 col-lg-6 col-xl-4">
-          <div class="event-wrap d-flex ftco-animate">
-            <div class="img" style="background-image: url(images/event-3.jpg);"></div>
-            <div class="text p-4 d-flex align-items-center">
-              <div>
-                <span class="time">8:30am - 11:30am</span>
-                <h3><a href="#">Sharing Our Faith &amp; Gospel</a></h3>
-                <div class="meta">
-                  <p><span class="icon-user mr-1"></span> by pastor: <a href="#">Jerry Simon</a></p>
-                  <p><span class="icon-location"></span> 203 Fake St. Mountain View, San Francisco, California, USA</p>
-                  <p class="mb-0"><a href="#" class="btn btn-primary">Join Us</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+	<!-- Event -->
 
-        <div class="col-md-12 col-lg-6 col-xl-4">
-          <div class="event-wrap d-flex ftco-animate">
-            <div class="img" style="background-image: url(images/event-4.jpg);"></div>
-            <div class="text p-4 d-flex align-items-center">
-              <div>
-                <span class="time">8:30am - 11:30am</span>
-                <h3><a href="#">Sharing Our Faith &amp; Gospel</a></h3>
-                <div class="meta">
-                  <p><span class="icon-user mr-1"></span> by pastor: <a href="#">Jerry Simon</a></p>
-                  <p><span class="icon-location"></span> 203 Fake St. Mountain View, San Francisco, California, USA</p>
-                  <p class="mb-0"><a href="#" class="btn btn-primary">Join Us</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-12 col-lg-6 col-xl-4">
-          <div class="event-wrap d-flex ftco-animate">
-            <div class="img" style="background-image: url(images/event-5.jpg);"></div>
-            <div class="text p-4 d-flex align-items-center">
-              <div>
-                <span class="time">8:30am - 11:30am</span>
-                <h3><a href="#">Sharing Our Faith &amp; Gospel</a></h3>
-                <div class="meta">
-                  <p><span class="icon-user mr-1"></span> by pastor: <a href="#">Jerry Simon</a></p>
-                  <p><span class="icon-location"></span> 203 Fake St. Mountain View, San Francisco, California, USA</p>
-                  <p class="mb-0"><a href="#" class="btn btn-primary">Join Us</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-12 col-lg-6 col-xl-4">
-          <div class="event-wrap d-flex ftco-animate">
-            <div class="img" style="background-image: url(images/event-6.jpg);"></div>
-            <div class="text p-4 d-flex align-items-center">
-              <div>
-                <span class="time">8:30am - 11:30am</span>
-                <h3><a href="#">Sharing Our Faith &amp; Gospel</a></h3>
-                <div class="meta">
-                  <p><span class="icon-user mr-1"></span> by pastor: <a href="#">Jerry Simon</a></p>
-                  <p><span class="icon-location"></span> 203 Fake St. Mountain View, San Francisco, California, USA</p>
-                  <p class="mb-0"><a href="#" class="btn btn-primary">Join Us</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+	<div class="event">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="event_container d-flex flex-lg-row flex-column align-items-center justify-content-start">
+						<div class="event_date d-flex flex-column align-items-center justify-content-center">
+							<div class="event_day">18</div>
+							<div class="event_month">mar</div>
+						</div>
+						<div class="event_content">
+							<div class="event_title">UPCOMING EVENT: <a href="#">exploring the Christian faith</a></div>
+							<ul class="event_row">
+								<li>
+									<div class="event_icon"><img src="images/calendar.png" alt=""></div>
+									<span>08:00 AM - 11:00 AM</span>
+								</li>
+								<li>
+									<div class="event_icon"><img src="images/location.png" alt=""></div>
+									<span>1195 Lobortis Rd, New Orleans, New Hampshire</span>
+								</li>
+							</ul>
+						</div>
+						<div class="event_timer_container ml-lg-auto">
+							<ul class="event_timer">
+								<li><div id="day" class="event_num">00</div><div class="event_ss">day</div></li>
+								<li><div id="hour" class="event_num">00</div><div class="event_ss">hrs</div></li>
+								<li><div id="minute" class="event_num">00</div><div class="event_ss">min</div></li>
+								<li><div id="second" class="event_num">00</div><div class="event_ss">sec</div></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
+	<!-- About -->
 
-  <section class="ftco-section ftco-causes ftco-no-pb" id="causes-section">
-    <div class="container">
-      <div class="row justify-content-center pb-5">
-        <div class="col-md-12 heading-section text-center ftco-animate">
-          <span class="subheading">Donate Charity</span>
-          <h2 class="mb-5">Causes Needs Our Help</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-3">
-          <div class="cause-entry ftco-animate">
-            <a href="#" class="img" style="background-image: url(images/cause-1.jpg);"></a>
-            <div class="text p-3">
-              <h3><a href="cause.html">Health care, Food</a></h3>
-              <div class="progress mb-4">
-                <div class="progress-bar color-1" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
-                  <span>40%</span>
-                </div>
-              </div>
-              <p class="donate"><span class="price">$80,000</span> <span class="target-goal">Target</span> / <span class="price">$55,000</span> <span class="target-goal">Goal</span></p>
-              <p>A small river named Duden flows by their place and supplies it with the necessary.</p>
-              <p><a href="#" class="btn btn-primary">Donate Now!</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="cause-entry ftco-animate">
-            <a href="#" class="img" style="background-image: url(images/cause-2.jpg);"></a>
-            <div class="text p-3">
-              <h3><a href="cause.html">Restored the Old City Church</a></h3>
-              <div class="progress mb-4">
-                <div class="progress-bar color-1" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                  <span>50%</span>
-                </div>
-              </div>
-              <p class="donate"><span class="price">$80,000</span> <span class="target-goal">Target</span> / <span class="price">$55,000</span> <span class="target-goal">Goal</span></p>
-              <p>A small river named Duden flows by their place and supplies it with the necessary.</p>
-              <p><a href="#" class="btn btn-primary">Donate Now!</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="cause-entry ftco-animate">
-            <a href="#" class="img" style="background-image: url(images/cause-3.jpg);"></a>
-            <div class="text p-3">
-              <h3><a href="cause.html">Save Childern For Hunger</a></h3>
-              <div class="progress mb-4">
-                <div class="progress-bar color-1" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                  <span>80%</span>
-                </div>
-              </div>
-              <p class="donate"><span class="price">$80,000</span> <span class="target-goal">Target</span> / <span class="price">$55,000</span> <span class="target-goal">Goal</span></p>
-              <p>A small river named Duden flows by their place and supplies it with the necessary.</p>
-              <p><a href="#" class="btn btn-primary">Donate Now!</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="cause-entry ftco-animate">
-            <a href="#" class="img" style="background-image: url(images/cause-4.jpg);"></a>
-            <div class="text p-3">
-              <h3><a href="cause.html">Save Childern For Hunger</a></h3>
-              <div class="progress mb-4">
-                <div class="progress-bar color-1" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                  <span>80%</span>
-                </div>
-              </div>
-              <p class="donate"><span class="price">$80,000</span> <span class="target-goal">Target</span> / <span class="price">$55,000</span> <span class="target-goal">Goal</span></p>
-              <p>A small river named Duden flows by their place and supplies it with the necessary.</p>
-              <p><a href="#" class="btn btn-primary">Donate Now!</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row mt-4 justify-content-end">
-        <div class="col-lg-10">
-          <div class="donated-intro bg-darken p-4 p-md-5">
-            <h2>Donation so far <span>$</span><strong class="number" data-number="9891000">0</strong></h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-            <p><a href="#" class="btn btn-black px-4 py-3">Donate now!</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+	<div class="about">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container text-center">
+						<div class="section_title">welcome to our church</div>
+						<div class="section_subtitle">It's the start of an amazing journey of faith</div>
+					</div>
+				</div>
+			</div>
+			<div class="row about_row">
+				<div class="col-lg-6">
+					<div class="about_image"><img src="images/about.jpg" alt=""></div>
+				</div>
+				<div class="col-lg-6">
+					<div class="about_content">
+						<div class="about_text">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gestas ant eget risus varius, euismod tellus suscipit. Aenean condimentum cond mentum ulla, vitae imperd urna varius volutpa. Mauris lobotis comodo mollis nolle. In vetib  velit ifermentum empor euismod. Cras gravida maximus ligula ac posuere. Maecenas auctor interdum varius sollicitudin orci. Phasellus quis volutpat ex, id maximus magna. Sed elit posuere augue, tincid unt non ipsum sit amet, maximus sagittis lectus. Quisque tincidunt, antevis pharetra sodales, non ante magna tempus nulla, sed molestie orci magna quis tellus. Nulla facilisi sit amet libero sed condimentum.</p>
+						</div>
+						<div class="button about_button"><a href="#">read story</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
+	<!-- Sermons -->
 
-  <section class="ftco-daily-verse img" style="background-image: url(images/bg_4.jpg);">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-10">
-          <div class="row justify-content-center align-items-center">
-            <div class="col-md-2 ftco-animate">
-              <div class="icon">
-                <span class="flaticon-church"></span>
-              </div>
-            </div>
-            <div class="col-md-10 daily-verse pl-md-5 ftco-animate">
-              <span class="subheading">Jesus Christ Said:</span>
-              <h3>"16 For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life."</h3>
-              <h4 class="h5 mt-4 font-weight-bold"><span>Bible:</span> John 3:16 KJV</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+	<div class="sermons">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container text-center">
+						<div class="section_title">sermons today</div>
+						<div class="section_subtitle">Our lives in praising God</div>
+					</div>
+				</div>
+			</div>
+			<div class="row sermons_row">
+				<div class="col-lg-4 sermon_col">
+					<div class="card">
+						<img class="card-img-top" src="images/sermon_1.jpg" alt="">
+						<div class="card-body text-center">
+							<div class="card-title sermon_title"><a href="sermon.html">Sermons on Prayer:  Running Well, FinIshing Strong</a></div>
+							<div class="card-text sermon_info_container">
+								<div class="sermon_info">
+									<div class="sermon_info_title">Pastor: </div>
+									<ul class="sermon_info_list">
+										<li><a href="#">Josh Brighton</a></li>
+									</ul>
+								</div>
+								<div class="sermon_info">
+									<div class="sermon_info_title">Categories: </div>
+									<ul class="sermon_info_list">
+										<li><a href="#">God, </a></li>
+										<li><a href="#">Prayer</a></li>
+									</ul>
+								</div>
+								<div class="sermon_links">
+									<ul>
+										<li><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-download" aria-hidden="true"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-  <section class="ftco-section bg-light" id="blog-section">
-    <div class="container">
-      <div class="row justify-content-center mb-5 pb-5">
-        <div class="col-md-7 heading-section text-center ftco-animate">
-          <span class="subheading">Blog</span>
-          <h2 class="mb-4">Read the Latest Blog</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-        </div>
-      </div>
-      <div class="row d-flex">
-        <div class="col-md-4 d-flex ftco-animate">
-          <div class="blog-entry justify-content-end">
-            <a href="single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
-            </a>
-            <div class="text float-right d-block">
-              <div class="d-flex align-items-center pt-2 mb-4 topp">
-                <div class="one mr-2">
-                  <span class="day">04</span>
-                </div>
-                <div class="two">
-                  <span class="yr">2019</span>
-                  <span class="mos">June</span>
-                </div>
-              </div>
-              <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              <div class="d-flex align-items-center mt-4 meta">
-                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
-                <p class="ml-auto mb-0">
-                  <a href="#" class="mr-2">Admin</a>
-                  <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 d-flex ftco-animate">
-          <div class="blog-entry justify-content-end">
-            <a href="single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
-            </a>
-            <div class="text float-right d-block">
-              <div class="d-flex align-items-center pt-2 mb-4 topp">
-                <div class="one mr-2">
-                  <span class="day">04</span>
-                </div>
-                <div class="two">
-                  <span class="yr">2019</span>
-                  <span class="mos">June</span>
-                </div>
-              </div>
-              <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              <div class="d-flex align-items-center mt-4 meta">
-                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
-                <p class="ml-auto mb-0">
-                  <a href="#" class="mr-2">Admin</a>
-                  <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 d-flex ftco-animate">
-          <div class="blog-entry">
-            <a href="single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
-            </a>
-            <div class="text float-right d-block">
-              <div class="d-flex align-items-center pt-2 mb-4 topp">
-                <div class="one mr-2">
-                  <span class="day">04</span>
-                </div>
-                <div class="two">
-                  <span class="yr">2019</span>
-                  <span class="mos">June</span>
-                </div>
-              </div>
-              <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              <div class="d-flex align-items-center mt-4 meta">
-                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
-                <p class="ml-auto mb-0">
-                  <a href="#" class="mr-2">Admin</a>
-                  <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+				<div class="col-lg-4 sermon_col">
+					<div class="card">
+						<img class="card-img-top" src="images/sermon_2.jpg" alt="">
+						<div class="card-body text-center">
+							<div class="card-title sermon_title"><a href="sermon.html">Sermons on Faith: A Life Worth Living, A new purpose</a></div>
+							<div class="card-text sermon_info_container">
+								<div class="sermon_info">
+									<div class="sermon_info_title">Pastor: </div>
+									<ul class="sermon_info_list">
+										<li><a href="#">Julia Amber</a></li>
+									</ul>
+								</div>
+								<div class="sermon_info">
+									<div class="sermon_info_title">Categories: </div>
+									<ul class="sermon_info_list">
+										<li><a href="#">God, </a></li>
+										<li><a href="#">Faith</a></li>
+									</ul>
+								</div>
+								<div class="sermon_links">
+									<ul>
+										<li><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-download" aria-hidden="true"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-  <section class="ftco-section ftco-no-pb" id="pastor-section">
-    <div class="container">
-      <div class="row justify-content-center pb-5">
-        <div class="col-md-6 heading-section text-center ftco-animate">
-          <span class="subheading">Pastors</span>
-          <h2 class="mb-4">Church Pastor</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-3 ftco-animate">
-          <div class="staff">
-            <div class="img-wrap d-flex align-items-stretch">
-              <div class="img align-self-stretch" style="background-image: url(images/staff-1.jpg);"></div>
-            </div>
-            <div class="text d-flex align-items-center pt-3 text-center">
-              <div>
-                <h3 class="mb-2">Lloyd Wilson</h3>
-                <span class="position mb-4">Lead Pastor</span>
-                <div class="faded">
-                  <ul class="ftco-social text-center">
-                    <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                    <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 ftco-animate">
-          <div class="staff">
-            <div class="img-wrap d-flex align-items-stretch">
-              <div class="img align-self-stretch" style="background-image: url(images/staff-2.jpg);"></div>
-            </div>
-            <div class="text d-flex align-items-center pt-3 text-center">
-              <div>
-                <h3 class="mb-2">Rachel Parker</h3>
-                <span class="position mb-4">Lead Pastor</span>
-                <div class="faded">
-                  <ul class="ftco-social text-center">
-                    <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                    <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 ftco-animate">
-          <div class="staff">
-            <div class="img-wrap d-flex align-items-stretch">
-              <div class="img align-self-stretch" style="background-image: url(images/staff-3.jpg);"></div>
-            </div>
-            <div class="text d-flex align-items-center pt-3 text-center">
-              <div>
-                <h3 class="mb-2">Ian Smith</h3>
-                <span class="position mb-4">Lead Pastor</span>
-                <div class="faded">
-                  <ul class="ftco-social text-center">
-                    <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                    <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 ftco-animate">
-          <div class="staff">
-            <div class="img-wrap d-flex align-items-stretch">
-              <div class="img align-self-stretch" style="background-image: url(images/staff-4.jpg);"></div>
-            </div>
-            <div class="text d-flex align-items-center pt-3 text-center">
-              <div>
-                <h3 class="mb-2">Alicia Henderson</h3>
-                <span class="position mb-4">Lead Pastor</span>
-                <div class="faded">
-                  <ul class="ftco-social text-center">
-                    <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                    <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+				<div class="col-lg-4 sermon_col">
+					<div class="card">
+						<img class="card-img-top" src="images/sermon_3.jpg" alt="">
+						<div class="card-body text-center">
+							<div class="card-title sermon_title"><a href="sermon.html">Sermons for Communion Services: Come to the Table</a></div>
+							<div class="card-text sermon_info_container">
+								<div class="sermon_info">
+									<div class="sermon_info_title">Pastor: </div>
+									<ul class="sermon_info_list">
+										<li><a href="#">Ashley Young</a></li>
+									</ul>
+								</div>
+								<div class="sermon_info">
+									<div class="sermon_info_title">Categories: </div>
+									<ul class="sermon_info_list">
+										<li><a href="#">God, </a></li>
+										<li><a href="#">Communion</a></li>
+									</ul>
+								</div>
+								<div class="sermon_links">
+									<ul>
+										<li><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-download" aria-hidden="true"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-  <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-    <div class="container">
-      <div class="row justify-content-center mb-5 pb-3">
-        <div class="col-md-7 heading-section text-center ftco-animate">
-          <span class="subheading">Contact</span>
-          <h2 class="mb-4">Contact Me</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-        </div>
-      </div>
+			</div>
+		</div>
+	</div>
 
-      <div class="row block-9">
-        <div class="col-md-7 order-md-last d-flex">
-          <form action="#" class="bg-light p-4 p-md-5 contact-form">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Email">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Subject">
-            </div>
-            <div class="form-group">
-              <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-            </div>
-            <div class="form-group">
-              <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-            </div>
-          </form>
+	<!-- Mission -->
 
-        </div>
+	<div class="mission">
+		<div class="mission_background parallax-window" data-parallax="scroll" data-image-src="images/mission.jpg" data-speed="0.8"></div>
+		<div class="mission_items d-flex flex-row flex-wrap align-items-start justify-content-start">
 
-        <div class="col-md-5 d-flex">
-          <div class="row d-flex contact-info mb-5">
-            <div class="col-md-12 ftco-animate">
-              <div class="box p-2 px-3 bg-light d-flex">
-                <div class="icon mr-3">
-                  <span class="icon-map-signs"></span>
-                </div>
-                <div>
-                  <h3 class="mb-3">Address</h3>
-                  <p>198 West 21th Street, Suite 721 New York NY 10016</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-12 ftco-animate">
-              <div class="box p-2 px-3 bg-light d-flex">
-                <div class="icon mr-3">
-                  <span class="icon-phone2"></span>
-                </div>
-                <div>
-                  <h3 class="mb-3">Contact Number</h3>
-                  <p><a href="tel://1234567920">+ 1235 2355 98</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-12 ftco-animate">
-              <div class="box p-2 px-3 bg-light d-flex">
-                <div class="icon mr-3">
-                  <span class="icon-paper-plane"></span>
-                </div>
-                <div>
-                  <h3 class="mb-3">Email Address</h3>
-                  <p><a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-12 ftco-animate">
-              <div class="box p-2 px-3 bg-light d-flex">
-                <div class="icon mr-3">
-                  <span class="icon-globe"></span>
-                </div>
-                <div>
-                  <h3 class="mb-3">Website</h3>
-                  <p><a href="#">yoursite.com</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+			<div class="mission_item text-center">
+				<div class="mission_icon"><i class="fa fa-bell-o" aria-hidden="true"></i></div>
+				<div class="mission_title">our mission</div>
+				<div class="mission_text">Lorem ipsum dolor  amet, consectet adipiscing doelit. Sed a mauri suscipita utrum arcu , gravida nisl. Interdum mante ipsum.</div>
+			</div>
 
-  <section class="ftco-section ftco-no-pt ftco-no-pb">
-    <div id="map" class="bg-white"></div>
-  </section>
+			<div class="mission_item text-center">
+				<div class="mission_icon"><i class="fa fa-flag-o" aria-hidden="true"></i></div>
+				<div class="mission_title">our community</div>
+				<div class="mission_text">Lorem ipsum dolor  amet, consectet adipiscing doelit. Sed a mauri suscipita utrum arcu , gravida nisl. Interdum mante ipsum.</div>
+			</div>
 
-  <section class="ftco-gallery ftco-section ftco-no-pb mb-4">
-    <div class="container-fluid px-4">
-      <div class="row justify-content-center mb-5 pb-3">
-        <div class="col-md-7 heading-section ftco-animate text-center">
-          <h3 class="subheading">Gallery</h3>
-          <h2 class="mb-1">Christian Church Photo Gallery</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-3 ftco-animate">
-          <a href="images/gallery-1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-1.jpg);">
-            <div class="icon mb-4 d-flex align-items-center justify-content-center">
-              <span class="icon-instagram"></span>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-3 ftco-animate">
-          <a href="images/gallery-2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-2.jpg);">
-            <div class="icon mb-4 d-flex align-items-center justify-content-center">
-              <span class="icon-instagram"></span>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-3 ftco-animate">
-          <a href="images/gallery-3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-3.jpg);">
-            <div class="icon mb-4 d-flex align-items-center justify-content-center">
-              <span class="icon-instagram"></span>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-3 ftco-animate">
-          <a href="images/gallery-4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-4.jpg);">
-            <div class="icon mb-4 d-flex align-items-center justify-content-center">
-              <span class="icon-instagram"></span>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <footer class="ftco-footer ftco-bg-dark ftco-section">
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-md">
-          <div class="ftco-footer-widget mb-4">
-            <h2 class="ftco-heading-2 logo"><span>Christian</span> Church</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md">
-          <div class="ftco-footer-widget mb-4 ml-md-5">
-            <h2 class="ftco-heading-2">About</h2>
-            <ul class="list-unstyled">
-              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Staff</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Beliefs</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>History</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Mission</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Wedding &amp; Funerals</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Jobs &amp; Internship</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Fellowships</a></li>
+			<div class="mission_item text-center">
+				<div class="mission_icon"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
+				<div class="mission_title">our belief</div>
+				<div class="mission_text">Lorem ipsum dolor  amet, consectet adipiscing doelit. Sed a mauri suscipita utrum arcu , gravida nisl. Interdum mante ipsum.</div>
+			</div>
 
-            </ul>
-          </div>
-        </div>
-        <div class="col-md">
-          <div class="ftco-footer-widget mb-4 ml-md-5">
-            <h2 class="ftco-heading-2">Connect</h2>
-            <ul class="list-unstyled">
-              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Home Groups</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Recovery Groups</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Memberships</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Children &amp; Students</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Volunteer</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Counseling</a></li>
-              <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Assistance</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md">
-          <div class="ftco-footer-widget mb-4">
-            <h2 class="ftco-heading-2">Service Hours</h2>
-            <div class="opening-hours">
-              <p>Saturday Prayer Meeting: <span class="mb-3">10:00 am to 11:30 am</span></p>
-              <p>Sunday Service: <span class="mb-3">8:30 am to 11:30 am</span></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 text-center">
+			<div class="mission_item text-center">
+				<div class="mission_icon"><i class="fa fa-moon-o" aria-hidden="true"></i></div>
+				<div class="mission_title">our faith</div>
+				<div class="mission_text">Lorem ipsum dolor  amet, consectet adipiscing doelit. Sed a mauri suscipita utrum arcu , gravida nisl. Interdum mante ipsum.</div>
+			</div>
 
-          <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>
-              document.write(new Date().getFullYear());
-            </script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
+		</div>
+	</div>
 
+	<!-- Events -->
 
+	<div class="events">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container text-center">
+						<div class="section_title">upcoming events</div>
+						<div class="section_subtitle">Experience God's Presence</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="events_items d-flex flex-lg-row flex-column align-items-lg-start align-items-center justify-content-lg-between justify-content-center">
 
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
-      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
+			<!-- Event -->
+			<div class="events_item">
+				<div class="events_item_image"><img src="images/event_1.jpg" alt=""></div>
+				<div class="events_item_content d-flex flex-row align-items-start justfy-content-start">
+					<div class="event_date d-flex flex-column align-items-center justify-content-center">
+						<div class="event_day">18</div>
+						<div class="event_month">mar</div>
+					</div>
+					<div class="event_content">
+						<div class="event_title"><a href="#">exploring the Christian faith</a></div>
+						<ul class="event_row">
+							<li>
+								<div class="event_icon"><img src="images/calendar.png" alt=""></div>
+								<span>08:00 AM - 11:00 AM</span>
+							</li>
+							<li>
+								<div class="event_icon"><img src="images/location.png" alt=""></div>
+								<span>1195 Lobortis Rd, New Orleans, New Hampshire</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
 
+			<!-- Event -->
+			<div class="events_item">
+				<div class="events_item_image"><img src="images/event_2.jpg" alt=""></div>
+				<div class="events_item_content d-flex flex-row align-items-start justfy-content-start">
+					<div class="event_date d-flex flex-column align-items-center justify-content-center">
+						<div class="event_day">18</div>
+						<div class="event_month">mar</div>
+					</div>
+					<div class="event_content">
+						<div class="event_title"><a href="#">To Love and to Cherish, The Wedding</a></div>
+						<ul class="event_row">
+							<li>
+								<div class="event_icon"><img src="images/calendar.png" alt=""></div>
+								<span>08:00 AM - 11:00 AM</span>
+							</li>
+							<li>
+								<div class="event_icon"><img src="images/location.png" alt=""></div>
+								<span>1195 Lobortis Rd, New Orleans, New Hampshire</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
+			<!-- Event -->
+			<div class="events_item">
+				<div class="events_item_image"><img src="images/event_3.jpg" alt=""></div>
+				<div class="events_item_content d-flex flex-row align-items-start justfy-content-start">
+					<div class="event_date d-flex flex-column align-items-center justify-content-center">
+						<div class="event_day">18</div>
+						<div class="event_month">mar</div>
+					</div>
+					<div class="event_content">
+						<div class="event_title"><a href="#">The Christian Community in America</a></div>
+						<ul class="event_row">
+							<li>
+								<div class="event_icon"><img src="images/calendar.png" alt=""></div>
+								<span>08:00 AM - 11:00 AM</span>
+							</li>
+							<li>
+								<div class="event_icon"><img src="images/location.png" alt=""></div>
+								<span>1195 Lobortis Rd, New Orleans, New Hampshire</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
 
-  <script src="js/main.js"></script>
+		</div>
+	</div>
 
+	<!-- Donations -->
+
+	<div class="donations">
+		<div class="donations_background parallax-window" data-parallax="scroll" data-image-src="images/donation.jpg" data-speed="0.8"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="donations_content">
+						<div class="donation_title">help children get an education</div>
+						<div class="donation_info_container">
+							<div class="donation_info">
+								<div class="donation_info_title">Donation Caller: </div>
+								<ul class="donation_info_list">
+									<li><a href="#">John Connor</a></li>
+								</ul>
+							</div>
+							<div class="donation_info">
+								<div class="donation_info_title">Categories: </div>
+								<ul class="donation_info_list">
+									<li><a href="#">Education, </a></li>
+									<li><a href="#">Children</a></li>
+								</ul>
+							</div>
+							<div class="donation_info">
+								<div class="donation_info_title">On: </div>
+								<ul class="donation_info_list">
+									<li><a href="#">Friday 16 MAR, 2018</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="donation_text">
+							<p>Mauris eleifend dolor ante, at fringilla magna dignissim et. Maecenas imperdiet quam quis erat molestie facilisis. Ut in condimentum ipsum. Aenean ac congue turpis. Nunc luctus ligula tellus, in pellentesque leo ullamcorper in.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="donation_details_container">
+						<div class="donation_details">
+							<div class="donation_funds">
+								<div class="donation_funds_title">Remaining: </div>
+								<div class="donations_funds_value">$2,100</div>
+							</div>
+							<div class="donation_progress_container">
+								<div class="donation_progress_outer">
+									<div class="donation_progress" style="width: 70%;"><div class="donation_progress_value">70%</div></div>
+								</div>
+								<div class="donation_info d-flex flex-row align-items-center justify-content-start">
+									<div class="donation_current">Raised: <span>$5,000</span></div>
+									<div class="donation_goal ml-auto">Goal: <span>$7,100</span></div>
+								</div>
+								<div class="button donation_button"><a href="#">donate now</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Quote -->
+
+	<div class="quote">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="quote_container text-center">
+						<div class="quote_quote">“Wherever the bishop appears, there let the people be, even as wheresoever Christ Jesus is, there is the catholic church.”</div>
+						<div class="quote_icon"><img src="images/quote.png" alt=""></div>
+						<div class="quote_source">Ignatius of Antioch</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Gallery -->
+
+	<div class="gallery d-flex flex-row flex-wrap align-items-start justify-content-start">
+		<div class="gallery_item">
+			<a class="colorbox" href="images/gallery_1.jpg">
+				<img src="images/gallery_1.jpg" alt="https://unsplash.com/@mantashesthaven">
+			</a>
+		</div>
+		<div class="gallery_item">
+			<a class="colorbox" href="images/gallery_2.jpg">
+				<img src="images/gallery_2.jpg" alt="https://unsplash.com/@mantashesthaven">
+			</a>
+		</div>
+		<div class="gallery_item">
+			<a class="colorbox" href="images/gallery_3.jpg">
+				<img src="images/gallery_3.jpg" alt="https://unsplash.com/@mantashesthaven">
+			</a>
+		</div>
+		<div class="gallery_item">
+			<a class="colorbox" href="images/gallery_4.jpg">
+				<img src="images/gallery_4.jpg" alt="https://unsplash.com/@mantashesthaven">
+			</a>
+		</div>
+		<div class="gallery_item">
+			<a class="colorbox" href="images/gallery_5.jpg">
+				<img src="images/gallery_5.jpg" alt="https://unsplash.com/@mantashesthaven">
+			</a>
+		</div>
+		<div class="gallery_item">
+			<a class="colorbox" href="images/gallery_6.jpg">
+				<img src="images/gallery_6.jpg" alt="https://unsplash.com/@mantashesthaven">
+			</a>
+		</div>
+		<div class="gallery_item">
+			<a class="colorbox" href="images/gallery_7.jpg">
+				<img src="images/gallery_7.jpg" alt="https://unsplash.com/@mantashesthaven">
+			</a>
+		</div>
+		<div class="gallery_item">
+			<a class="colorbox" href="images/gallery_8.jpg">
+				<img src="images/gallery_8.jpg" alt="https://unsplash.com/@mantashesthaven">
+			</a>
+		</div>
+		<div class="gallery_item">
+			<a class="colorbox" href="images/gallery_9.jpg">
+				<img src="images/gallery_9.jpg" alt="https://unsplash.com/@mantashesthaven">
+			</a>
+		</div>
+		<div class="gallery_item">
+			<a class="colorbox" href="images/gallery_10.jpg">
+				<img src="images/gallery_10.jpg" alt="https://unsplash.com/@mantashesthaven">
+			</a>
+		</div>
+	</div>
+
+	<!-- Latest News -->
+
+	<div class="latest_news">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container text-center">
+						<div class="section_title">latest news</div>
+						<div class="section_subtitle">Be part of a community of people experiencing God together.</div>
+					</div>
+				</div>
+			</div>
+			<div class="row news_row">
+
+				<!-- News Post -->
+				<div class="col-xl-4 col-lg-6 news_post_col">
+					<div class="news_post">
+						<div class="news_image"><img src="images/news_1.jpg" alt=""></div>
+						<div class="news_post_content">
+							<div class="news_post_title">
+								<a href="blog_single.html">Find out why a priest prays around her hometown</a>
+							</div>
+							<div class="news_post_meta">
+								<ul>
+									<li><i class="fa fa-user" aria-hidden="true"></i><a href="#">Josh Brighton</a></li>
+									<li><i class="fa fa-calendar-o" aria-hidden="true"></i><a href="#">08 MAR, 2018</a></li>
+									<li><i class="fa fa-comment" aria-hidden="true"></i><a href="#">15</a></li>
+								</ul>
+							</div>
+							<div class="news_post_text">
+								<p>Integer luctus diam acto scerisque consectetur. Vimus euismod nec lacus sit amet. Aenean interdus mid vitae blandit  porta. Quisque dignissim commodo congue efficitur...</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- News Post -->
+				<div class="col-xl-4 col-lg-6 news_post_col">
+					<div class="news_post">
+						<div class="news_image"><img src="images/news_2.jpg" alt=""></div>
+						<div class="news_post_content">
+							<div class="news_post_title">
+								<a href="blog_single.html">Moderator joins Pope Francis in call to prayer for peace</a>
+							</div>
+							<div class="news_post_meta">
+								<ul>
+									<li><i class="fa fa-user" aria-hidden="true"></i><a href="#">Ashley Young</a></li>
+									<li><i class="fa fa-calendar-o" aria-hidden="true"></i><a href="#">08 MAR, 2018</a></li>
+									<li><i class="fa fa-comment" aria-hidden="true"></i><a href="#">12</a></li>
+								</ul>
+							</div>
+							<div class="news_post_text">
+								<p>Integer luctus diam acto scerisque consectetur. Vimus euismod nec lacus sit amet. Aenean interdus mid vitae blandit  porta. Quisque dignissim commodo congue efficitur...</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- News Post -->
+				<div class="col-xl-4 col-lg-6 news_post_col">
+					<div class="news_post">
+						<div class="news_image"><img src="images/news_3.jpg" alt=""></div>
+						<div class="news_post_content">
+							<div class="news_post_title">
+								<a href="blog_single.html">Church plays a major role in tackling loneliness</a>
+							</div>
+							<div class="news_post_meta">
+								<ul>
+									<li><i class="fa fa-user" aria-hidden="true"></i><a href="#">Josh Brighton</a></li>
+									<li><i class="fa fa-calendar-o" aria-hidden="true"></i><a href="#">07 MAR, 2018</a></li>
+									<li><i class="fa fa-comment" aria-hidden="true"></i><a href="#">10</a></li>
+								</ul>
+							</div>
+							<div class="news_post_text">
+								<p>Integer luctus diam acto scerisque consectetur. Vimus euismod nec lacus sit amet. Aenean interdus mid vitae blandit  porta. Quisque dignissim commodo congue efficitur...</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="footer_background parallax-window" data-parallax="scroll" data-image-src="images/footer.jpg" data-speed="0.8"></div>
+		<div class="container">
+			<div class="row">
+
+				<!-- Footer - Contact -->
+				<div class="col-lg-4 footer_col">
+					<div class="footer_column footer_contact_column">
+						<div class="footer_logo_container">
+							<a href="#">
+								<div class="footer_logo"><img src="images/logo_2.png" alt=""></div>
+								<div class="footer_logo_text">mimosan</div>
+							</a>
+						</div>
+						<div class="footer_contact">
+							<ul>
+								<li><div><i class="fa fa-map-marker" aria-hidden="true"></i></div><span>1195 Lobortis Rd, New Orleans, New Hampshire</span></li>
+								<li><div><i class="fa fa-phone" aria-hidden="true"></i></div><span>+1 234 800 8080</span></li>
+								<li><div><i class="fa fa-envelope" aria-hidden="true"></i></div><span>info.deercreative@gmail.com</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<!-- Footer - Links -->
+				<div class="col-lg-4 footer_col">
+					<div class="footer_column footer_links">
+						<div class="footer_title">useful links</div>
+						<ul class="footer_links_list">
+							<li><a href="about.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> About us</a></li>
+							<li><a href="contact.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Contact</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Donation</a></li>
+							<li><a href="blog.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Blog</a></li>
+							<li><a href="sermon.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Sermons</a></li>
+							<li><a href="events.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Events</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Service</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Media</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Footer - Subscribe -->
+				<div class="col-lg-4 footer_col">
+					<div class="footer_column footer_subscribe">
+						<div class="footer_title">subscribe</div>
+						<div class="footer_text">Join our weekly email newsletter to receive news, events and other announcements about what is going on at our church.</div>
+						<div class="footer_form_container">
+							<form action="#" class="footer_form">
+								<div>
+									<input type="email" class="subscribe_input" placeholder="Enter your email" required="required">
+									<button class="subscribe_button trans_200" type="submit">subscribe</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="row copyright_row">
+				<div class="col">
+					<div class="copyright_container d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
+						<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+						<div class="footer_social ml-lg-auto">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+<script src="js/custom.js"></script>
 </body>
-
 </html>
