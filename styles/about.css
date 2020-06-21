@@ -114,11 +114,11 @@ p a:hover::after
 }
 ::selection
 {
-	
+
 }
 p::selection
 {
-	
+
 }
 h1{font-size: 48px;}
 h2{font-size: 36px;}
@@ -132,14 +132,14 @@ h1, h2, h3, h4, h5, h6
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
-h1::selection, 
-h2::selection, 
-h3::selection, 
-h4::selection, 
-h5::selection, 
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
 h6::selection
 {
-	
+
 }
 .form-control
 {
@@ -404,17 +404,8 @@ section
 .logo_text
 {
 	font-size: 30px;
-	font-weight: 700;
-	text-transform: uppercase;
-	line-height: 0.75;
-	color: #181818;
-	vertical-align: middle;
-	margin-left: 7px;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
+	font-color: white;
+	font-family: "Great Vibes", cursive;
 }
 .header.scrolled .logo
 {
@@ -728,7 +719,7 @@ section
 }
 .section_title_container
 {
-	
+
 }
 .section_title
 {
@@ -1126,9 +1117,9 @@ section
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: #c0c0c0 !important;
-} 
+}
 .subscribe_input:-ms-input-placeholder
-{ 
+{
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: #c0c0c0 !important;
